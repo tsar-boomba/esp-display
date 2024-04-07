@@ -1,0 +1,9 @@
+/.vscode
+/.embuild
+/target
+/Cargo.lock
+.DS_Store
+password.txt
+username.txt
+wpa-pass.txt
+PCB/PCB-backups

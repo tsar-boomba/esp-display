@@ -1,0 +1,17 @@
+[package]
+name = "sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+graphics = { path = "../graphics" }
+embedded-graphics = { workspace = true }
+embedded-layout = { workspace = true }
+embedded-text = { workspace = true }
+embedded-graphics-simulator = "0.6.0"
+common = { version = "0.1.0", path = "../common" }
+ureq = { version = "2.9.6", features = ["json"] }
+color-eyre = "0.6.3"
+image = { workspace = true }
